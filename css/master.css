@@ -1,0 +1,51 @@
+
+*{
+  display:flex;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+}
+
+header{
+  justify-content: flex-start;
+  background-color:purple;
+  height: 30vh;
+  width: 100vw;
+}
+
+.logo{
+  margin: 2.5vh;
+}
+
+#logo{
+  width: 25vh;
+  height: 25vh;
+}
+
+.nav{
+  align-items: flex-start;
+  flex-direction: column;
+  margin: 2.5vh;
+  padding-right: 6vh;
+  border-right: solid;
+  border-color: black;
+  height: 20vh;
+}
+
+.pestaña{
+  border-right: solid;
+  border-color: black;
+  margin-right: 5vh;
+  margin-top: 4vh;
+  padding-right: 2vh;
+  font-size: 30px;
+  height: 5vh;
+}
+
+.title{
+  margin-top: ;
+  margin-bottom: 5vh;
+  padding: 0;
+  font-size: 35px;
+  height: 8vh;
+}
