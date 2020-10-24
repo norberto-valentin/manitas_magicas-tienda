@@ -4,9 +4,11 @@
   box-sizing: border-box;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 header{
+  flex-direction: row;
   justify-content: flex-start;
   background-color:purple;
   height: 30vh;
@@ -22,9 +24,12 @@ header{
   height: 25vh;
 }
 
+.bar{
+  flex-direction: row;
+}
+
 .nav{
   align-items: flex-start;
-  flex-direction: column;
   margin: 2.5vh;
   padding-right: 6vh;
   border-right: solid;
@@ -40,6 +45,7 @@ a{
 }
 
 .pestaña{
+  flex-direction: row;
   border-right: solid;
   border-color: black;
   margin-right: 5vh;
@@ -49,6 +55,7 @@ a{
 }
 
 .title{
+  flex-direction: column;
   margin-top: ;
   margin-bottom: 5vh;
   padding: 0;
@@ -59,11 +66,13 @@ a{
 .form{
   align-items: flex-end;
   flex-direction: column;
+  margin-right: 2vw;
   height: 30vh;
   width: 30vw;
 }
 
 #buscador{
+  flex-direction: row;
   height: 50%;
 }
 
@@ -79,6 +88,52 @@ a{
   font-size: 20px;
 }
 
+#user{
+  flex-direction: row;
+}
+
 #reg{
   font-size:20px;
+}
+
+.banner{
+  height: 80vh;
+  width: 94vw;
+  margin-top: 3vw;
+  margin-bottom: 3vw;
+  padding: 0;
+}
+
+.main{
+  flex-direction: row;
+  background-color: green;
+  height: 150vh;
+  width: 100vw;
+  margin-bottom: 3vh;
+}
+
+.setting{
+  justify-content: flex-start;
+  height: 100%;
+  width: 30%;
+  background-color: white;
+}
+
+.config{
+  height: 40%;
+  width: 90%;
+  background-color: pink;
+  margin: 5%;
+}
+
+.product-list{
+  height: 100%;
+  width: 70%;
+  background-color: blue;
+}
+
+footer{
+  background-color: purple;
+  height:30vh;
+  width: 100vw;
 }
