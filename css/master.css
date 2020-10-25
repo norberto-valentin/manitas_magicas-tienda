@@ -10,7 +10,7 @@
 header{
   flex-direction: row;
   justify-content: flex-start;
-  background-color:purple;
+  background-color:#3f056f;
   height: 30vh;
   width: 100vw;
 }
@@ -105,17 +105,15 @@ a{
 }
 
 .main{
+  align-items: flex-start;
   flex-direction: row;
-  background-color: green;
-  height: 150vh;
-  width: 100vw;
   margin-bottom: 3vh;
 }
 
 .setting{
   justify-content: flex-start;
-  height: 100%;
-  width: 30%;
+  height: 150vh;
+  width: 30vw;
   background-color: white;
 }
 
@@ -127,13 +125,40 @@ a{
 }
 
 .product-list{
+  height: 250vh;
+  width: 70vw;
+}
+
+.product{
+  flex-direction: row;
+  width: 90%;
+  height: 10%;
+  background-color: pink;
+  margin: 1%;
+}
+
+.pic-product{
   height: 100%;
-  width: 70%;
-  background-color: blue;
+  width: 20%;
+  background-color: green;
+}
+
+.description{
+  font-size: 10px;
+  background-color: #a284ab;
+  height: 100%;
+  width: 80%;
+}
+
+.spec, textarea{
+  padding: 5px;
+  flex-flow: nowrap;
+  height: 80%;
+  width: 100%;
 }
 
 footer{
-  background-color: purple;
+  background-color: #3f056f;
   height:30vh;
   width: 100vw;
 }
