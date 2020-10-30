@@ -20,7 +20,7 @@ header{
 }
 
 #logo{
-  width: 25vh;
+  width: 27vh;
   height: 25vh;
 }
 
@@ -102,59 +102,6 @@ a{
   margin-top: 3vw;
   margin-bottom: 3vw;
   padding: 0;
-}
-
-.main{
-  align-items: flex-start;
-  flex-direction: row;
-  margin-bottom: 3vh;
-}
-
-.setting{
-  justify-content: flex-start;
-  height: 150vh;
-  width: 30vw;
-  background-color: white;
-}
-
-.config{
-  height: 40%;
-  width: 90%;
-  background-color: pink;
-  margin: 5%;
-}
-
-.product-list{
-  height: 250vh;
-  width: 70vw;
-}
-
-.product{
-  flex-direction: row;
-  width: 90%;
-  height: 10%;
-  background-color: pink;
-  margin: 1%;
-}
-
-.pic-product{
-  height: 100%;
-  width: 20%;
-  background-color: green;
-}
-
-.description{
-  font-size: 10px;
-  background-color: #a284ab;
-  height: 100%;
-  width: 80%;
-}
-
-.spec, textarea{
-  padding: 5px;
-  flex-flow: nowrap;
-  height: 80%;
-  width: 100%;
 }
 
 footer{
