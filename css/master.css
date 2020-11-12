@@ -96,16 +96,41 @@ a{
   font-size:20px;
 }
 
-.banner{
-  height: 80vh;
-  width: 94vw;
-  margin-top: 3vw;
-  margin-bottom: 3vw;
-  padding: 0;
+.product-list{
+  flex-flow: wrap;
+}
+
+.product{
+  margin: 20px;
+  background-color: #c5a0d4;
+}
+
+.spec{
+  text-align: left;
+}
+
+img{
+  height: 50vh;
+  width: 35vw;
+}
+
+h2{
+  width: 35vw;
+}
+
+button{
+  height: 10vh;
+  width: 15vw;
+  font-size: 30px;
+  background-color: #c88ba2;
+}
+
+button:hover {
+  background-color: #f071a1;
 }
 
 footer{
   background-color: #3f056f;
-  height:30vh;
+  height:15vh;
   width: 100vw;
 }
